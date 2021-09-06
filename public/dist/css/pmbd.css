@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+	height:100%;
+	width: 100%;
+	font-family: 'Poppings'. sans-serif;
+	color: #222;
+}
+
+.navbar {
+	padding: .8rem;
+}
+
+.navbar-img {
+  height: calc(3.5rem + 1px)/2;
+  width: auto;
+}
+
+.navbar-badge {
+  font-size: .6rem;
+  font-weight: 300;
+  padding: 2px 4px;
+  position: absolute;
+  right: 5px;
+  top: 9px;
+}
+
+.navbar-nav li {
+	padding: 10px;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+		height:100%;
+	width: 100%;
+}
+
+
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1 {
+	font-size: 350%;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+	font-size: 150%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+
+.btn-primary {
+	background-color: #6648b1;
+	border: 1px solid #6648b1;
+}
+
+.btn-primary:hover {
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+
+.jumbrotron {
+	padding: 1rem;
+	border-radius: 0;
+}
+
+.padding {
+	padding-bottom: 2rem;
+		padding-top: 2rem;
+}
+
+.welcome {
+	width:70%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width:95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+footer {
+	Background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75&;
+	margin-top: .8 rem;
+	margin-bottom: 1rem;
+}
+footer a {
+	color: #d5d5d5;
+	
+}
+
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100&;
+	margin-top: .8 rem;
+	margin-bottom: 1rem;
+
+}
+
+/*------- Schedule 
+
+ table,th,tr {
+	border: 5px solid black;
+}-------*/
+
+.schedule-section {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.schedule-text .st-title {
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 500;
+	background: #dd1515;
+	text-align: center;
+	padding: 12px 0 14px;
+	margin-bottom: 30px;
+}
+
+.schedule-text .st-table table {
+	width: 90%;
+	margin: auto;
+}
+
+.schedule-text .st-table table tbody tr {
+	border-bottom: 1px solid #e5e5e5;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.schedule-text .st-table table tbody tr:last-child {
+	border: none;
+}
+
+.schedule-text .st-table table tbody tr:hover {
+	background: #f2f2f2;
+	border-color: #f2f2f2;
+}
+
+.schedule-text .st-table table tbody tr td {
+	width: 150px;
+	padding: 16px 0;
+}
+
+.schedule-text .st-table table tbody tr td img {
+	height: 100;
+	width: 50px;
+}
+
+.schedule-text .st-table table tbody tr td h4 {
+	line-height: 30px;
+	color: #151618;
+	font-weight: 500;
+}
+
+.schedule-text .st-table table tbody tr td.left-team {
+	padding-left: 20px;
+}
+
+.schedule-text .st-table table tbody tr td.left-team img {
+	float: left;
+	margin-right: 10px;
+}
+
+.schedule-text .st-table table tbody tr td.left-team h4 {
+	overflow: hidden;
+}
+
+.schedule-text .st-table table tbody tr td.right-team {
+	text-align: right;
+	padding-right: 20px;
+}
+
+.schedule-text .st-table table tbody tr td.right-team img {
+	float: right;
+	margin-left: 10px;
+}
+
+.schedule-text .st-table table tbody tr td.right-team h4 {
+	float: right;
+}
+
+.schedule-text .st-table table tbody tr td.st-option {
+	text-align: center;
+}
+
+.schedule-text .st-table table tbody tr td.st-option h4 {
+	color: #dd1515;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 14px;
+	margin-bottom: 12px;
+}
+
+.schedule-text .st-table table tbody tr td.st-option .so-text {
+	font-size: 14px;
+	color: #636363;
+}
+
+.schedule-sidebar .ss-widget {
+	margin-bottom: 55px;
+}
+
+.schedule-sidebar .ss-widget.other-sport {
+	margin-bottom: 0;
+}
+
+.schedule-sidebar .ss-widget ul li {
+	list-style: none;
+	position: relative;
+	padding-left: 22px;
+}
+
+.schedule-sidebar .ss-widget ul li a {
+	font-size: 16px;
+	color: #636363;
+	line-height: 30px;
+}
+
+.schedule-sidebar .ss-widget ul li:before {
+	position: absolute;
+	left: 0;
+	top: 11px;
+	height: 8px;
+	width: 8px;
+	background: #636363;
+	content: "";
+	border-radius: 50%;
+}
+
+.schedule-sidebar .ss-league {
+	margin-bottom: 65px;
+}
+
+.schedule-sidebar .ss-league .sl-item {
+	margin-bottom: 25px;
+	display: block;
+	overflow: hidden;
+}
+
+.schedule-sidebar .ss-league .sl-item img {
+	height: 22px;
+	width: 36px;
+	float: left;
+	margin-right: 10px;
+}
+
+.schedule-sidebar .ss-league .sl-item span {
+	font-size: 14px;
+	color: #2d2d2d;
+	font-weight: 500;
+	overflow: hidden;
+	line-height: 22px;
+	display: inline-block;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+	social a {
+	font-size: 4em;
+	padding: 2rem;
+  }
+@media (max-width: 768px) {
+.carousel-caption {
+	position: absolute;
+	top: 45%;
+}
+.carousel-caption h1 {
+	font-size: 200%;
+}
+.carousel-caption h3 {
+	font-size: 100%;
+	font-weight: 400;
+	padding-bottom: .2rem;
+}
+.carousel-caption btn {
+	font-size: 95%:
+	padding: 8px 14px;
+}
+.display-4 {
+	font-size: 200%;
+}
+	social a {
+	font-size: 2.5em;
+	padding: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+.carousel-caption {
+	position: absolute;
+	top: 40%;
+}
+.carousel-caption h1 {
+	font-size: 150%;
+}
+.carousel-caption h3 {
+	font-size: 80%;
+}
+.carousel-caption btn {
+	font-size: 90%:
+	padding: 4px 8px;
+}
+.carousel-indicators {
+	display:none;
+}
+.display-4 {
+	font-size: 160%;
+}
+	social a {
+	font-size: 2em;
+	padding: .7rem;
+  }
+}
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
